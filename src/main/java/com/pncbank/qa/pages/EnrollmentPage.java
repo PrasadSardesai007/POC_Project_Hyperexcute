@@ -116,7 +116,7 @@ public class EnrollmentPage {
 		driver.findElement(onlineAccessPin).sendKeys(panNumOrPan);
 
 	}
-	
+
 	public String getTitleForEnrollement() {
 		return driver.getTitle();
 	}

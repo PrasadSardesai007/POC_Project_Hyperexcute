@@ -43,7 +43,7 @@ public class LoginStepDefination {
 	public void user_enters_username_and_password() {
 		loginPageObj.enterUserID("sardesp");
 		loginPageObj.enterPassword("Vbfg@12536");
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+		//driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 	}
 
 	@And("User clicks on login button")

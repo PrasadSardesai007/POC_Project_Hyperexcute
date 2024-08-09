@@ -8,9 +8,10 @@ import java.util.Properties;
 public class ConfigReader {
 
 	private Properties prop;
-	
+
 	/**
-	 * This method is used to load the  properties from Config.properties file
+	 * This method is used to load the properties from Config.properties file
+	 * 
 	 * @return properties object
 	 */
 
@@ -19,7 +20,9 @@ public class ConfigReader {
 		prop = new Properties();
 
 		try {
-			FileInputStream fis = new FileInputStream("C:\\Users\\PRASAD\\practice-rest-assured\\SampleCucumberProject\\src\\test\\resources\\com\\config\\config.properties");
+			FileInputStream fis = new FileInputStream(
+					"C:\\Users\\prasad.sardesai" + "" + "\\POC_Project_09082024\\POC_Project_Hyperexcute"
+							+ "\\src\\test\\resources\\com\\config\\config.properties");
 			prop.load(fis);
 		} catch (FileNotFoundException e) {
 

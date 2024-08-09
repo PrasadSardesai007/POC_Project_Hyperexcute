@@ -17,6 +17,9 @@ Scenario Outline:
 	Examples: 
 		|SSN|DebitCardPin|PanAccountNumberOPanNumber|
 		|123456789|090909|12345678|
+	    |987654321|080808|45654532|
+		|676545676|908977|23453454|
+
 		
 @Test	
 Scenario Outline: 
@@ -34,6 +37,8 @@ Scenario Outline:
 	Examples: 
 		|SSN|DebitCardPin|PanAccountNumberOPanNumber|OnlineAccessPin|
 		|123456789|090909|12345678|5523|
+		|987654321|080808|45654532|4533|
+		|676545676|908977|23453454|2378|
 		
 		
 	@Test	
@@ -52,6 +57,8 @@ Scenario Outline:
 	Examples: 
 		|PNCVoiceBankId|DebitCardPin|PanAccountNumberOPanNumber|OnlineAccessPin|
 		|123456789|090909|12345678|5523|
+		|987654321|080808|45654532|4533|
+		|676545676|908977|23453454|2378|
 		
 		
 		
@@ -71,4 +78,8 @@ Scenario Outline:
 	
 	Examples: 
 		|PNCVoiceBankId|DebitCardPin|PanAccountNumberOPanNumber|OnlineAccessPin|
-		|123456789|090909|12345678|5523|		
+		|123456789|090909|12345678|5523|
+		|987654321|080808|45654532|4583|
+		|676545676|908977|23453454|2358|
+		
+				
