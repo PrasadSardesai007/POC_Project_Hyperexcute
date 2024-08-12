@@ -1,6 +1,6 @@
 Feature: To Test PNC Bank Login Functionality 
 
-@Test
+@Test1
 Scenario: Verify Login Functionality with Invalid Credential 
 	Given User Launches the PNC Bank application
 	When User clicks on the Sign On button

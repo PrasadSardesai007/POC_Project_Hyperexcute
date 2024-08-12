@@ -18,6 +18,7 @@ Scenario Outline:
 		|SSN|DebitCardPin|PanAccountNumberOPanNumber|
 		|123456789|090909|12345678|
 		
+		
 @Test	
 Scenario Outline: 
 	Verify Enrollement Functionality with Invalid Credential for SSN and online access Pin 
