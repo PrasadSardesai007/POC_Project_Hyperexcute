@@ -21,7 +21,7 @@ public class ConfigReader {
 
 		try {
 			FileInputStream fis = new FileInputStream(
-					System.getProperty("user.dir") +
+					System.getProperty("user.dir")
 							+ "\\src\\test\\resources\\com\\config\\config.properties");
 			prop.load(fis);
 		} catch (FileNotFoundException e) {
