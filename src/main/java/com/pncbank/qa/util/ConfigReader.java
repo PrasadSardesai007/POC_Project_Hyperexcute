@@ -21,7 +21,7 @@ public class ConfigReader {
 
 		try {
 			FileInputStream fis = new FileInputStream(
-					"C:\\Users\\prasad.sardesai" + "" + "\\POC_Project_09082024\\POC_Project_Hyperexcute"
+					System.getProperty("user.dir") +
 							+ "\\src\\test\\resources\\com\\config\\config.properties");
 			prop.load(fis);
 		} catch (FileNotFoundException e) {
