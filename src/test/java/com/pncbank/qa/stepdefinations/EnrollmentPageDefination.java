@@ -60,11 +60,12 @@ public class EnrollmentPageDefination {
 	public void verify_that_the_application_shows_an_appropriate_warning_message_on_the_ui() {
 		List<String> lst = new ArrayList<String>();
 
-		String warning = "We don’t recognize your information.";
+		String warning = "We don't recognize your information.";
 		System.out.println(enrollmentPage.getWarningMsg());
 		lst.add(enrollmentPage.getWarningMsg());
+		boolean checkWarning= lst.get(0).contains(warning);
 
-		assertTrue("Unable to validate warning Message", lst.get(0).contains(warning));
+		assertTrue("Unable to validate warning Message", checkWarning);
 
 	}
 	

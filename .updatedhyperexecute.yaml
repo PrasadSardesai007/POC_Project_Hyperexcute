@@ -51,6 +51,7 @@ framework:
     baseCommand: ""
     defaultReports: false
     discoveryFlags: []
+    discoveryMode: ""
     discoveryType: ""
     downloadURL: ""
     flags: []
@@ -62,7 +63,7 @@ framework:
     userdefinediscovery: false
     version: ""
     workingDirectory: ""
-jobID: e0f016af-36b6-43d1-ab0b-78b7929b4558
+jobID: 9648a817-05e1-4cf9-bd3f-0cd8d35d1012
 jobLabel:
     - selenium-testng
     - win11

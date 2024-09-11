@@ -41,14 +41,14 @@ public class LoginStepDefination {
 
 	@And("User enters username and password")
 	public void user_enters_username_and_password() {
-		loginPageObj.enterUserID("sardesp");
-		loginPageObj.enterPassword("Vbfg@12536");
+		loginPageObj.enterUserID("abcds");
+		loginPageObj.enterPassword("bcvg@12536");
 		//driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 	}
 
 	@And("User clicks on login button")
 	public void user_clicks_on_login_button() {
-		// Write code here that turns the phrase above into concrete actions
+		
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		loginPageObj.clickOnLogInBtn();
 	}

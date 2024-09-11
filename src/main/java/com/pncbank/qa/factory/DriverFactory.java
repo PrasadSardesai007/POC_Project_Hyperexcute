@@ -27,7 +27,7 @@ public class DriverFactory {
 
 			WebDriverManager.chromedriver().setup();
 			// Use local ChromeDriver if needed
-		//tlDriver.set(new ChromeDriver());
+		tlDriver.set(new ChromeDriver());
 
 		} else if (browser.equalsIgnoreCase("remote")) {
 
