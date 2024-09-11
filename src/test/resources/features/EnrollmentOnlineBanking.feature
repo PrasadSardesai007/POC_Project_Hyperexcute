@@ -1,7 +1,7 @@
 Feature: To Test PNC Bank Enrollment Functionality with Invalid details 
 
 
-@Test
+@Test1
 Scenario Outline: 
 	Verify Enrollement Functionality with Invalid Credential for SSN and PNC Debit Card fields 
 	Given User Launches the PNC Bank application 

@@ -36,3 +36,12 @@
 {"level":"info","message":"Extracting features from file src/test/resources/features/EnrollmentOnlineBanking.feature","service":"snooper","timestamp":"Wed, 11 Sep 2024 10:10:32 GMT"}
 {"level":"info","message":"Extracting features from file src/test/resources/features/LoginToOnlineBanking.feature","service":"snooper","timestamp":"Wed, 11 Sep 2024 10:10:32 GMT"}
 {"level":"info","message":"Snooper discovery completed","service":"snooper","timestamp":"Wed, 11 Sep 2024 10:10:32 GMT"}
+{"level":"info","message":"Snooper version 1.23.0","service":"snooper","timestamp":"Wed, 11 Sep 2024 10:45:27 GMT"}
+{"level":"info","message":"Snooper discovery completed","service":"snooper","timestamp":"Wed, 11 Sep 2024 10:45:27 GMT"}
+{"level":"info","message":"Snooper version 1.23.0","service":"snooper","timestamp":"Wed, 11 Sep 2024 10:45:27 GMT"}
+{"level":"info","message":"Discovering feature files","service":"snooper","timestamp":"Wed, 11 Sep 2024 10:45:27 GMT"}
+{"level":"info","message":"framework java","service":"snooper","timestamp":"Wed, 11 Sep 2024 10:45:27 GMT"}
+{"level":"info","message":"extracting fetures","service":"snooper","timestamp":"Wed, 11 Sep 2024 10:45:27 GMT"}
+{"level":"info","message":"Extracting features from file src/test/resources/features/EnrollmentOnlineBanking.feature","service":"snooper","timestamp":"Wed, 11 Sep 2024 10:45:27 GMT"}
+{"level":"info","message":"Extracting features from file src/test/resources/features/LoginToOnlineBanking.feature","service":"snooper","timestamp":"Wed, 11 Sep 2024 10:45:27 GMT"}
+{"level":"info","message":"Snooper discovery completed","service":"snooper","timestamp":"Wed, 11 Sep 2024 10:45:27 GMT"}

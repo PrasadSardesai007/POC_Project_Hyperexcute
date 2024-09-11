@@ -58,14 +58,23 @@ public class EnrollmentPageDefination {
 
 	@Then("Verify that the application shows an appropriate warning message on the UI")
 	public void verify_that_the_application_shows_an_appropriate_warning_message_on_the_ui() {
-		List<String> lst = new ArrayList<String>();
+	    // Initialize a list to hold warning messages
+	    List<String> lst = new ArrayList<>();
 
-		String warning = "We don't recognize your information.";
-		System.out.println(enrollmentPage.getWarningMsg());
-		lst.add(enrollmentPage.getWarningMsg());
-		boolean checkWarning= lst.get(0).contains(warning);
+	    // Define the expected warning message
+	    String warning = "We don't recognize your information.";
 
-		assertTrue("Unable to validate warning Message", checkWarning);
+	    // Get the actual warning message from the enrollment page
+	    String actualWarningMsg = enrollmentPage.getWarningMsg();
+
+	    // Print the actual warning message (optional)
+	    System.out.println(actualWarningMsg);
+
+	    // Add the actual warning message to the list
+	    lst.add(actualWarningMsg);
+
+	    // Assert that the actual warning message contains the expected warning message
+	    assertTrue("Unable to validate warning Message", lst.get(0).contains(warning));
 
 	}
 	
