@@ -6,7 +6,8 @@ import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features = "src/test/resources/features", glue = { "com.pncbank.qa.stepdefinations", "com.pncbank.qa.apphooks" }, plugin = {
+@CucumberOptions(features = "src/test/resources/features", glue = { "com.pncbank.qa.stepdefinations", "com.pncbank.qa.apphooks" }, 
+plugin = {
 		"pretty" }, tags = "@Test")
 public class TestRunner {
 

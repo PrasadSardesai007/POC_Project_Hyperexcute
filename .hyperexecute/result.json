@@ -1,0 +1,74 @@
+{
+    "id": "e0f016af-36b6-43d1-ab0b-78b7929b4558",
+    "created_at": "2024-08-30T11:07:36Z",
+    "update_at": "2024-08-30T11:16:52Z",
+    "global_timeout": 90,
+    "tunnel_name": "",
+    "start_time": "2024-08-30T11:07:56Z",
+    "end_time": "2024-08-30T11:16:52Z",
+    "summary": {
+        "total_time": 536000000000,
+        "execution_time": 536000000000,
+        "total_tasks": 4,
+        "build_time_consumed": 1012000000000,
+        "jobTestExecutionTime": "8m11s",
+        "failed_tasks": 4,
+        "total_stage_info": {},
+        "status": "failed",
+        "job_link": "https://hyperexecute.lambdatest.com/hyperexecute/task?jobId=e0f016af-36b6-43d1-ab0b-78b7929b4558"
+    },
+    "tasks": [
+        {
+            "id": "fef68e22-9a80-44de-b9c4-7cded2506e35",
+            "os": "win",
+            "status": "failed",
+            "remark": "error in running test suites - step 1 - exit status 1",
+            "debug": false,
+            "created_at": "2024-08-30T11:07:55Z",
+            "update_at": "2024-08-30T11:11:46Z",
+            "start_time": "2024-08-30T11:07:56Z",
+            "end_time": "2024-08-30T11:11:46Z",
+            "group_number": 1,
+            "stages": null
+        },
+        {
+            "id": "e9281581-d880-4720-8be9-3ac2b989508d",
+            "os": "win",
+            "status": "failed",
+            "remark": "error in running test suites - step 1 - exit status 1",
+            "debug": false,
+            "created_at": "2024-08-30T11:07:55Z",
+            "update_at": "2024-08-30T11:12:04Z",
+            "start_time": "2024-08-30T11:07:56Z",
+            "end_time": "2024-08-30T11:12:04Z",
+            "group_number": 2,
+            "stages": null
+        },
+        {
+            "id": "03c27037-be65-428a-99fb-7c701f48d8ce",
+            "os": "win",
+            "status": "failed",
+            "remark": "error in running test suites - step 1 - exit status 1",
+            "debug": false,
+            "created_at": "2024-08-30T11:07:55Z",
+            "update_at": "2024-08-30T11:15:54Z",
+            "start_time": "2024-08-30T11:11:47Z",
+            "end_time": "2024-08-30T11:15:54Z",
+            "group_number": 3,
+            "stages": null
+        },
+        {
+            "id": "95153bde-b52d-4942-8f4f-6dd06e3ed537",
+            "os": "win",
+            "status": "failed",
+            "remark": "error in running test suites - step 1 - exit status 1",
+            "debug": false,
+            "created_at": "2024-08-30T11:07:55Z",
+            "update_at": "2024-08-30T11:16:52Z",
+            "start_time": "2024-08-30T11:12:05Z",
+            "end_time": "2024-08-30T11:16:52Z",
+            "group_number": 4,
+            "stages": null
+        }
+    ]
+}

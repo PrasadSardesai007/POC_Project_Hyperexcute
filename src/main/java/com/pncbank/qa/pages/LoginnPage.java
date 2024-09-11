@@ -34,7 +34,7 @@ public class LoginnPage {
 
 	public LoginnPage(WebDriver driver) {
 		this.driver = driver;
-		
+
 	}
 
 	/*
@@ -87,14 +87,18 @@ public class LoginnPage {
 		// return driver.findElement(warningMsg).getText();
 	}
 
-	public void clickOnenrollInOnlineBanking() throws InterruptedException  {
-		Thread.sleep(5000);
-		//waits = new WebDriverWait(driver,Duration.ofSeconds(5));
-		//waits.until(ExpectedConditions.visibilityOfElementLocated(enrollInOnlineBanking)).click();
-		driver.findElement(enrollInOnlineBanking).click();
-		Thread.sleep(5000);
-		
-		
+	public void clickOnenrollInOnlineBanking() {
+		try {
+			Thread.sleep(5000);
+			driver.findElement(enrollInOnlineBanking).click();
+			Thread.sleep(5000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		// waits = new WebDriverWait(driver,Duration.ofSeconds(5));
+		// waits.until(ExpectedConditions.visibilityOfElementLocated(enrollInOnlineBanking)).click();
+
 	}
 
 }

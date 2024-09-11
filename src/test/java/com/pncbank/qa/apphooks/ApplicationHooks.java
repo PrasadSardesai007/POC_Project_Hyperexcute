@@ -1,5 +1,6 @@
 package com.pncbank.qa.apphooks;
 
+import java.net.MalformedURLException;
 import java.util.Properties;
 
 import org.openqa.selenium.OutputType;
@@ -32,9 +33,12 @@ public class ApplicationHooks {
 	public void launchBrowser() {
 		String browserName = prop.getProperty("browser");
 		driverFactory = new DriverFactory();
-		driver = driverFactory.init_driver(browserName);
-		
-		
+		try {
+			driver = driverFactory.init_driver(browserName);
+		} catch (MalformedURLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 
 	}
 
@@ -44,11 +48,10 @@ public class ApplicationHooks {
 		driver.quit();
 	}
 
-	
-	@After(order=1)
+	@After(order = 1)
 	public void tearDown(Scenario scenario) {
 		if (scenario.isFailed()) {
-			String screenshotName= scenario.getName().replaceAll("", "_");
+			String screenshotName = scenario.getName().replaceAll("", "_");
 			byte[] sourcePath = ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
 			scenario.attach(sourcePath, "image/png", screenshotName);
 

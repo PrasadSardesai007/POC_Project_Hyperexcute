@@ -1,0 +1,147 @@
+alwaysRunPostSteps: false
+appium: false
+autosplit: true
+betaFeature:
+    setPartiallyCompletedAsCompleted: false
+captureScreenRecordingForScenarios: false
+codeDirectory: POC_Project_Hyperexcute
+collectLocalGitData: true
+combineTasksInMatrixMode: false
+concurrency: 4
+cypress: false
+differentialUpload:
+    enabled: false
+    forcedDisabled: false
+    ttlHours: null
+dynamicAllocation: false
+errorCategorizedOnFailureOnly: false
+framework:
+    additional_args: null
+    args:
+        appId: ""
+        appPath: ""
+        avoidAppLaunch: false
+        deviceSelectionStrategy: ""
+        devices: []
+        disableReleaseDevice: false
+        filters:
+            attributes: []
+        fixedIP: ""
+        isRealMobile: false
+        isVirtualDevice: false
+        language: ""
+        locale: ""
+        minorOsVersion: false
+        mobileDC: null
+        platformName: ""
+        playwrightRD: false
+        preservedDevice: false
+        queueTimeout: 0
+        resignApp: true
+        shards:
+            mappings: []
+        skipInstall: false
+        skipUninstallPreviousBuild: false
+        skipXMLOnRun: false
+        testSuiteAppId: ""
+        testSuitePath: ""
+        uninstallPreviousBuild: false
+        xcTestPlanId: ""
+        xcTestPlanPath: ""
+    baseCommand: ""
+    defaultReports: false
+    discoveryFlags: []
+    discoveryType: ""
+    downloadURL: ""
+    flags: []
+    isTestNGXMLSuite: false
+    licenseKey: ""
+    name: ""
+    runnerFlags: []
+    toscaArgs: null
+    userdefinediscovery: false
+    version: ""
+    workingDirectory: ""
+jobID: e0f016af-36b6-43d1-ab0b-78b7929b4558
+jobLabel:
+    - selenium-testng
+    - win11
+    - v1
+    - autosplit
+key: eggZxKARjgMChcmUu0wfVlRTCMtOUIiZD5bUlGici2B4Odka2t
+localHTTPProxy: ""
+maxRetries: 1
+maxRetriesPreSteps: 0
+meta: {}
+platformConfig: null
+postDirectives:
+    commands: []
+    shell: ""
+    workingDirectory: ""
+pre:
+    - mvn clean install -DskipTests
+preDirectives:
+    commands:
+        - mvn clean install -DskipTests
+    maxRetries: 0
+    shell: ""
+    workingDirectory: ""
+project:
+    id: ""
+    name: ""
+    type: default
+retryOnFailure: true
+runson: win11
+runtime:
+    language: java
+    version: "17"
+    addons: []
+    opts: {}
+sourcePayload:
+    verifySSL: true
+storageType: ""
+testDiscovery:
+    args:
+        featureFilePaths: src/test/resources/features
+        frameWork: java
+        specificTags:
+            - '@Test'
+    command: C:\Users\prasad.sardesai\POC_Project_09082024\POC_Project_Hyperexcute\.hyperexecute\snooper.exe  --targetOs=win11 --featureFilePaths=src/test/resources/features --frameWork=java --specificTags=@Test
+    mode: static
+    type: automatic
+testDiscoveryResult:
+    - src/test/resources/features/EnrollmentOnlineBanking.feature:19
+    - src/test/resources/features/EnrollmentOnlineBanking.feature:20
+    - src/test/resources/features/EnrollmentOnlineBanking.feature:21
+    - src/test/resources/features/EnrollmentOnlineBanking.feature:39
+    - src/test/resources/features/EnrollmentOnlineBanking.feature:40
+    - src/test/resources/features/EnrollmentOnlineBanking.feature:41
+    - src/test/resources/features/EnrollmentOnlineBanking.feature:59
+    - src/test/resources/features/EnrollmentOnlineBanking.feature:60
+    - src/test/resources/features/EnrollmentOnlineBanking.feature:61
+    - src/test/resources/features/EnrollmentOnlineBanking.feature:81
+    - src/test/resources/features/EnrollmentOnlineBanking.feature:82
+    - src/test/resources/features/EnrollmentOnlineBanking.feature:83
+    - src/test/resources/features/LoginToOnlineBanking.feature:4
+testDiscoveryResult2D:
+    - - src/test/resources/features/EnrollmentOnlineBanking.feature:19
+    - - src/test/resources/features/EnrollmentOnlineBanking.feature:20
+    - - src/test/resources/features/EnrollmentOnlineBanking.feature:21
+    - - src/test/resources/features/EnrollmentOnlineBanking.feature:39
+    - - src/test/resources/features/EnrollmentOnlineBanking.feature:40
+    - - src/test/resources/features/EnrollmentOnlineBanking.feature:41
+    - - src/test/resources/features/EnrollmentOnlineBanking.feature:59
+    - - src/test/resources/features/EnrollmentOnlineBanking.feature:60
+    - - src/test/resources/features/EnrollmentOnlineBanking.feature:61
+    - - src/test/resources/features/EnrollmentOnlineBanking.feature:81
+    - - src/test/resources/features/EnrollmentOnlineBanking.feature:82
+    - - src/test/resources/features/EnrollmentOnlineBanking.feature:83
+    - - src/test/resources/features/LoginToOnlineBanking.feature:4
+testDiscoveryResultV3: []
+testRunnerCommand: mvn test `-Dcucumber.features=$test
+testSuites: []
+triggerMode: false
+tunnelOpts:
+    testsPerTunnel: 10
+user: prasad.sardesai
+version: "0.1"

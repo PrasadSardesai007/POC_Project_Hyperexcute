@@ -1,0 +1,29 @@
+---
+version: 0.1
+runson: win11
+
+autosplit: true
+concurrency: 4
+
+pre:
+  - mvn clean install -DskipTests
+
+
+testRunnerCommand: mvn test `-Dcucumber.features=$test
+
+retryOnFailure: true
+maxRetries: 1
+
+jobLabel: [selenium-testng, win11, v1, autosplit]
+
+runtime:
+  language: java
+  version: "17"
+
+testDiscovery:
+  type: automatic
+  mode: static
+  args:
+    featureFilePaths: src/test/resources/features
+    frameWork: java
+    specificTags: ["@Test"]

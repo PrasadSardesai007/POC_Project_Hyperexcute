@@ -1,0 +1,27 @@
+{"level":"info","message":"Snooper version 1.22.0","service":"snooper","timestamp":"Fri, 30 Aug 2024 10:55:03 GMT"}
+{"level":"info","message":"Snooper discovery completed","service":"snooper","timestamp":"Fri, 30 Aug 2024 10:55:03 GMT"}
+{"level":"info","message":"Snooper version 1.22.0","service":"snooper","timestamp":"Fri, 30 Aug 2024 10:55:04 GMT"}
+{"level":"info","message":"Discovering feature files","service":"snooper","timestamp":"Fri, 30 Aug 2024 10:55:04 GMT"}
+{"level":"info","message":"framework java","service":"snooper","timestamp":"Fri, 30 Aug 2024 10:55:04 GMT"}
+{"level":"info","message":"extracting fetures","service":"snooper","timestamp":"Fri, 30 Aug 2024 10:55:04 GMT"}
+{"level":"info","message":"Extracting features from file src/test/resources/features/EnrollmentOnlineBanking.feature","service":"snooper","timestamp":"Fri, 30 Aug 2024 10:55:04 GMT"}
+{"level":"info","message":"Extracting features from file src/test/resources/features/LoginToOnlineBanking.feature","service":"snooper","timestamp":"Fri, 30 Aug 2024 10:55:04 GMT"}
+{"level":"info","message":"Snooper discovery completed","service":"snooper","timestamp":"Fri, 30 Aug 2024 10:55:04 GMT"}
+{"level":"info","message":"Snooper version 1.22.0","service":"snooper","timestamp":"Fri, 30 Aug 2024 10:59:49 GMT"}
+{"level":"info","message":"Snooper discovery completed","service":"snooper","timestamp":"Fri, 30 Aug 2024 10:59:49 GMT"}
+{"level":"info","message":"Snooper version 1.22.0","service":"snooper","timestamp":"Fri, 30 Aug 2024 10:59:49 GMT"}
+{"level":"info","message":"Discovering feature files","service":"snooper","timestamp":"Fri, 30 Aug 2024 10:59:49 GMT"}
+{"level":"info","message":"framework java","service":"snooper","timestamp":"Fri, 30 Aug 2024 10:59:49 GMT"}
+{"level":"info","message":"extracting fetures","service":"snooper","timestamp":"Fri, 30 Aug 2024 10:59:49 GMT"}
+{"level":"info","message":"Extracting features from file src/test/resources/features/EnrollmentOnlineBanking.feature","service":"snooper","timestamp":"Fri, 30 Aug 2024 10:59:49 GMT"}
+{"level":"info","message":"Extracting features from file src/test/resources/features/LoginToOnlineBanking.feature","service":"snooper","timestamp":"Fri, 30 Aug 2024 10:59:49 GMT"}
+{"level":"info","message":"Snooper discovery completed","service":"snooper","timestamp":"Fri, 30 Aug 2024 10:59:49 GMT"}
+{"level":"info","message":"Snooper version 1.22.0","service":"snooper","timestamp":"Fri, 30 Aug 2024 11:07:36 GMT"}
+{"level":"info","message":"Snooper discovery completed","service":"snooper","timestamp":"Fri, 30 Aug 2024 11:07:36 GMT"}
+{"level":"info","message":"Snooper version 1.22.0","service":"snooper","timestamp":"Fri, 30 Aug 2024 11:07:36 GMT"}
+{"level":"info","message":"Discovering feature files","service":"snooper","timestamp":"Fri, 30 Aug 2024 11:07:36 GMT"}
+{"level":"info","message":"framework java","service":"snooper","timestamp":"Fri, 30 Aug 2024 11:07:36 GMT"}
+{"level":"info","message":"extracting fetures","service":"snooper","timestamp":"Fri, 30 Aug 2024 11:07:36 GMT"}
+{"level":"info","message":"Extracting features from file src/test/resources/features/EnrollmentOnlineBanking.feature","service":"snooper","timestamp":"Fri, 30 Aug 2024 11:07:36 GMT"}
+{"level":"info","message":"Extracting features from file src/test/resources/features/LoginToOnlineBanking.feature","service":"snooper","timestamp":"Fri, 30 Aug 2024 11:07:36 GMT"}
+{"level":"info","message":"Snooper discovery completed","service":"snooper","timestamp":"Fri, 30 Aug 2024 11:07:36 GMT"}

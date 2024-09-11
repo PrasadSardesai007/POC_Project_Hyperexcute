@@ -66,7 +66,7 @@ public class LoginStepDefination {
 	}
 
 	@When("User clicks on the Enroll In Online Banking button")
-	public void user_clicks_on_the_enroll_in_online_banking_button() throws InterruptedException {
+	public void user_clicks_on_the_enroll_in_online_banking_button()  {
 
 		loginPageObj.clickOnenrollInOnlineBanking();
 

@@ -1,0 +1,253 @@
+{"level":"debug","time":"2024-08-12T18:54:20.115+0530","caller":"cmd/bin.go:120","msg":"cli os: windows, cli arch: amd64"}
+{"level":"debug","time":"2024-08-12T18:54:21.000+0530","caller":"cmd/bin.go:129","msg":"Upstream version details: {Name:cli Min:0.2.195 Max:0.2.207} "}
+{"level":"debug","time":"2024-08-12T18:54:23.159+0530","caller":"core/lifecycle.go:104","msg":"Setting environment"}
+{"level":"debug","time":"2024-08-12T18:54:23.160+0530","caller":"core/lifecycle.go:107","msg":"Parsing config"}
+{"level":"debug","time":"2024-08-12T18:54:23.160+0530","caller":"yamlconfigmanager/setup.go:574","msg":"Custom location for .hyperexecute.yaml specified. Using: hyperexecute.yaml"}
+{"level":"debug","time":"2024-08-12T18:54:23.170+0530","caller":"yamlconfigmanager/setup.go:90","msg":"using hyperexecute config from : hyperexecute.yaml"}
+{"level":"debug","time":"2024-08-12T18:54:23.520+0530","caller":"yamlconfigmanager/setup.go:2122","msg":"Autodetecting test type in files of path : C:\\Users\\prasad.sardesai\\POC_Project_09082024\\POC_Project_Hyperexcute"}
+{"level":"debug","time":"2024-08-12T18:54:23.520+0530","caller":"yamlconfigmanager/setup.go:426","msg":"Tunnel: false"}
+{"level":"info","time":"2024-08-12T18:54:23.520+0530","caller":"models/HypertestYamlConfig.go:635","msg":"\n\u001b[4m\u001b[1m\u001b[97mExecution Plan\u001b[0m\u001b[22m\u001b[24m"}
+{"level":"info","time":"2024-08-12T18:54:23.521+0530","caller":"models/HypertestYamlConfig.go:439","msg":"Mode:    \u001b[36mautosplit\u001b[0m"}
+{"level":"info","time":"2024-08-12T18:54:23.522+0530","caller":"models/HypertestYamlConfig.go:499","msg":"Runson:    \u001b[36mwin\u001b[0m"}
+{"level":"info","time":"2024-08-12T18:54:23.522+0530","caller":"models/HypertestYamlConfig.go:507","msg":"Concurrency:    \u001b[36m5\u001b[0m"}
+{"level":"info","time":"2024-08-12T18:54:23.522+0530","caller":"models/HypertestYamlConfig.go:524","msg":"Framework:"}
+{"level":"info","time":"2024-08-12T18:54:23.523+0530","caller":"models/HypertestYamlConfig.go:525","msg":"    Name:    \u001b[36mmaven/junit4\u001b[0m"}
+{"level":"info","time":"2024-08-12T18:54:23.523+0530","caller":"models/HypertestYamlConfig.go:557","msg":"    discoveryType:    \u001b[36mclass\u001b[0m"}
+{"level":"info","time":"2024-08-12T18:54:23.523+0530","caller":"models/HypertestYamlConfig.go:568","msg":"Report:    \u001b[36mdisabled\u001b[0m"}
+{"level":"info","time":"2024-08-12T18:54:23.523+0530","caller":"models/HypertestYamlConfig.go:648","msg":""}
+{"level":"debug","time":"2024-08-12T18:54:23.523+0530","caller":"filevalidator/setup.go:46","msg":"Warning: Checking data.json file in current directory, no dataJsonPath found in .hyperexecute.yaml"}
+{"level":"debug","time":"2024-08-12T18:54:23.523+0530","caller":"filevalidator/setup.go:50","msg":"Warning: data.json file doesn't exist"}
+{"level":"debug","time":"2024-08-12T18:54:23.523+0530","caller":"frameworks/framework.go:57","msg":"version: 0.2"}
+{"level":"debug","time":"2024-08-12T18:54:23.525+0530","caller":"apiserver/setup.go:195","msg":"Starting API server"}
+{"level":"debug","time":"2024-08-12T18:54:23.526+0530","caller":"apiserver/setup.go:111","msg":"Starting API server for test results on port: 9191"}
+{"level":"debug","time":"2024-08-12T18:54:24.768+0530","caller":"java/maven.go:78","msg":"got asset version details &{Name:java-runner Min:0.10 Max:0.10}"}
+{"level":"debug","time":"2024-08-12T18:54:29.848+0530","caller":"java/maven.go:266","msg":"failed to open jar latest file path C:\\Users\\prasad.sardesai\\.m2\\repository\\com\\lambdatest\\LATEST, error open C:\\Users\\prasad.sardesai\\.m2\\repository\\com\\lambdatest\\LATEST: The system cannot find the path specified."}
+{"level":"debug","time":"2024-08-12T18:54:38.529+0530","caller":"java/maven.go:258","msg":"Jars downloaded successfully"}
+{"level":"debug","time":"2024-08-12T18:54:46.037+0530","caller":"java/maven.go:108","msg":"extracted jars successfully"}
+{"level":"debug","time":"2024-08-12T18:54:46.037+0530","caller":"java/maven.go:299","msg":"bumping version in extension.yml to 0.10"}
+{"level":"debug","time":"2024-08-12T18:54:46.040+0530","caller":"testdiscoverer/discoverer.go:176","msg":"Running discovery command: {mvn test -Dframework=junit4 -DdiscoveryType=class -Dmode=discover -DfailIfNoTests=false []}"}
+{"level":"debug","time":"2024-08-12T18:54:57.300+0530","caller":"testdiscoverer/discoverer.go:211","msg":"Stdout: [INFO] Scanning for projects...\r\n[INFO] Configured: SampleCucumberProject\r\n[INFO] \r\n[INFO] --------------------< sample:SampleCucumberProject >--------------------\r\n[INFO] Building SampleCucumberProject 0.0.1-SNAPSHOT\r\n[INFO]   from pom.xml\r\n[INFO] --------------------------------[ jar ]---------------------------------\r\n[INFO] \r\n[INFO] --- resources:3.3.1:resources (default-resources) @ SampleCucumberProject ---\r\nDownloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-filtering/3.3.1/maven-filtering-3.3.1.pom\r\nProgress (1): 1.4/6.0 kB\rProgress (1): 2.8/6.0 kB\rProgress (1): 4.1/6.0 kB\rProgress (1): 5.5/6.0 kB\rProgress (1): 6.0 kB    \r                    \rDownloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-filtering/3.3.1/maven-filtering-3.3.1.pom (6.0 kB at 13 kB/s)\r\nDownloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-filtering/3.3.1/maven-filtering-3.3.1.jar\r\nProgress (1): 1.4/55 kB\rProgress (1): 2.8/55 kB\rProgress (1): 4.1/55 kB\rProgress (1): 5.5/55 kB\rProgress (1): 6.9/55 kB\rProgress (1): 8.3/55 kB\rProgress (1): 9.7/55 kB\rProgress (1): 11/55 kB \rProgress (1): 12/55 kB\rProgress (1): 14/55 kB\rProgress (1): 15/55 kB\rProgress (1): 17/55 kB\rProgress (1): 18/55 kB\rProgress (1): 19/55 kB\rProgress (1): 21/55 kB\rProgress (1): 22/55 kB\rProgress (1): 23/55 kB\rProgress (1): 25/55 kB\rProgress (1): 26/55 kB\rProgress (1): 28/55 kB\rProgress (1): 29/55 kB\rProgress (1): 30/55 kB\rProgress (1): 32/55 kB\rProgress (1): 33/55 kB\rProgress (1): 34/55 kB\rProgress (1): 36/55 kB\rProgress (1): 37/55 kB\rProgress (1): 39/55 kB\rProgress (1): 40/55 kB\rProgress (1): 41/55 kB\rProgress (1): 43/55 kB\rProgress (1): 44/55 kB\rProgress (1): 46/55 kB\rProgress (1): 47/55 kB\rProgress (1): 48/55 kB\rProgress (1): 50/55 kB\rProgress (1): 51/55 kB\rProgress (1): 52/55 kB\rProgress (1): 54/55 kB\rProgress (1): 55 kB   \r                   \rDownloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-filtering/3.3.1/maven-filtering-3.3.1.jar (55 kB at 696 kB/s)\r\n[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!\r\n[INFO] skip non existing resourceDirectory C:\\Users\\prasad.sardesai\\POC_Project_09082024\\POC_Project_Hyperexcute\\src\\main\\resources\r\n[INFO] \r\n[INFO] --- compiler:3.13.0:compile (default-compile) @ SampleCucumberProject ---\r\n[INFO] Recompiling the module because of added or removed source files.\r\n[WARNING] File encoding has not been set, using platform encoding windows-1252, i.e. build is platform dependent!\r\n[INFO] Compiling 7 source files with javac [debug target 1.8] to target\\classes\r\n[INFO] ------------------------------------------------------------------------\r\n[INFO] BUILD FAILURE\r\n[INFO] ------------------------------------------------------------------------\r\n[INFO] Total time:  6.354 s\r\n[INFO] Finished at: 2024-08-12T18:54:57+05:30\r\n[INFO] ------------------------------------------------------------------------\r\n[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.13.0:compile (default-compile) on project SampleCucumberProject: Fatal error compiling: java.lang.IllegalAccessError: class lombok.javac.apt.LombokProcessor (in unnamed module @0x1da32baf) cannot access class com.sun.tools.javac.processing.JavacProcessingEnvironment (in module jdk.compiler) because module jdk.compiler does not export com.sun.tools.javac.processing to unnamed module @0x1da32baf -> [Help 1]\r\n[ERROR] \r\n[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.\r\n[ERROR] Re-run Maven using the -X switch to enable full debug logging.\r\n[ERROR] \r\n[ERROR] For more information about the errors and possible solutions, please read the following articles:\r\n[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException\r\n"}
+{"level":"debug","time":"2024-08-12T18:54:57.300+0530","caller":"testdiscoverer/discoverer.go:212","msg":"Stderr: "}
+{"level":"debug","time":"2024-08-12T18:54:57.813+0530","caller":"core/lifecycle.go:301","msg":"\u001b[91mERR::TSK::DSC\u001b[0m     Unable to run test discoverer exit status 1 - Error doing test discovery."}
+{"level":"debug","time":"2024-08-12T18:54:57.813+0530","caller":"core/lifecycle.go:55","msg":"Quit requested from main goroutine...."}
+{"level":"debug","time":"2024-08-12T18:54:57.813+0530","caller":"core/lifecycle.go:56","msg":"Waiting for the goroutines to exit"}
+{"level":"debug","time":"2024-08-12T18:55:27.828+0530","caller":"cmd/bin.go:343","msg":"Exiting application due to error \u001b[91mERR::TSK::DSC\u001b[0m     Unable to run test discoverer exit status 1"}
+{"level":"debug","time":"2024-08-12T18:55:27.828+0530","caller":"apiserver/setup.go:107","msg":"Shutting down the api server"}
+{"level":"debug","time":"2024-08-30T16:24:35.402+0530","caller":"cmd/bin.go:120","msg":"cli os: windows, cli arch: amd64"}
+{"level":"debug","time":"2024-08-30T16:24:35.733+0530","caller":"cmd/bin.go:129","msg":"Upstream version details: {Name:cli Min:0.2.195 Max:0.2.210} "}
+{"level":"info","time":"2024-08-30T16:24:35.733+0530","caller":"cmd/bin.go:137","msg":"Current binary version 0.2.207 is less than max upstream version 0.2.210."}
+{"level":"info","time":"2024-08-30T16:24:35.733+0530","caller":"updater/updater.go:63","msg":"Auto updating binary ..................."}
+{"level":"debug","time":"2024-08-30T16:24:35.735+0530","caller":"updater/updater.go:64","msg":"Download url: https://downloads.hyperexecute.cloud/hyperexecute/cli/0.2.210/windows/hyperexecute.exe"}
+{"level":"debug","time":"2024-08-30T16:24:38.046+0530","caller":"updater/updater.go:85","msg":"New binary downloaded successfully "}
+{"level":"debug","time":"2024-08-30T16:24:38.046+0530","caller":"updater/updater.go:86","msg":"Please run it again "}
+{"level":"info","time":"2024-08-30T16:24:38.048+0530","caller":"cmd/bin.go:147","msg":"Update successfully installed. Please restart the binary"}
+{"level":"debug","time":"2024-08-30T16:24:51.357+0530","caller":"cmd/bin.go:120","msg":"cli os: windows, cli arch: amd64"}
+{"level":"debug","time":"2024-08-30T16:24:51.702+0530","caller":"cmd/bin.go:129","msg":"Upstream version details: {Name:cli Min:0.2.195 Max:0.2.210} "}
+{"level":"debug","time":"2024-08-30T16:24:53.700+0530","caller":"core/lifecycle.go:104","msg":"Setting environment"}
+{"level":"debug","time":"2024-08-30T16:24:53.701+0530","caller":"core/lifecycle.go:107","msg":"Parsing config"}
+{"level":"debug","time":"2024-08-30T16:24:53.701+0530","caller":"yamlconfigmanager/setup.go:574","msg":"Custom location for .hyperexecute.yaml specified. Using: hyperexecute.yaml"}
+{"level":"debug","time":"2024-08-30T16:24:53.701+0530","caller":"yamlconfigmanager/setup.go:90","msg":"using hyperexecute config from : hyperexecute.yaml"}
+{"level":"debug","time":"2024-08-30T16:24:54.565+0530","caller":"yamlconfigmanager/setup.go:2146","msg":"Autodetecting test type in files of path : C:\\Users\\prasad.sardesai\\POC_Project_09082024\\POC_Project_Hyperexcute"}
+{"level":"debug","time":"2024-08-30T16:24:54.566+0530","caller":"yamlconfigmanager/setup.go:426","msg":"Tunnel: false"}
+{"level":"info","time":"2024-08-30T16:24:54.566+0530","caller":"models/HypertestYamlConfig.go:635","msg":"\n\u001b[4m\u001b[1m\u001b[97mExecution Plan\u001b[0m\u001b[22m\u001b[24m"}
+{"level":"info","time":"2024-08-30T16:24:54.566+0530","caller":"models/HypertestYamlConfig.go:439","msg":"Mode:    \u001b[36mautosplit\u001b[0m"}
+{"level":"info","time":"2024-08-30T16:24:54.567+0530","caller":"models/HypertestYamlConfig.go:499","msg":"Runson:    \u001b[36mwin11\u001b[0m"}
+{"level":"info","time":"2024-08-30T16:24:54.567+0530","caller":"models/HypertestYamlConfig.go:507","msg":"Concurrency:    \u001b[36m4\u001b[0m"}
+{"level":"info","time":"2024-08-30T16:24:54.567+0530","caller":"models/HypertestYamlConfig.go:568","msg":"Report:    \u001b[36mdisabled\u001b[0m"}
+{"level":"info","time":"2024-08-30T16:24:54.567+0530","caller":"models/HypertestYamlConfig.go:648","msg":""}
+{"level":"debug","time":"2024-08-30T16:24:54.567+0530","caller":"filevalidator/setup.go:46","msg":"Warning: Checking data.json file in current directory, no dataJsonPath found in .hyperexecute.yaml"}
+{"level":"debug","time":"2024-08-30T16:24:54.568+0530","caller":"filevalidator/setup.go:50","msg":"Warning: data.json file doesn't exist"}
+{"level":"debug","time":"2024-08-30T16:24:54.569+0530","caller":"snoopermanager/setup.go:135","msg":"Downloading test discovery dependency binary ..................."}
+{"level":"debug","time":"2024-08-30T16:24:54.569+0530","caller":"snoopermanager/setup.go:136","msg":"Download url: https://downloads.hyperexecute.cloud/hyperexecute/windows/snooper.exe"}
+{"level":"debug","time":"2024-08-30T16:24:55.704+0530","caller":"snoopermanager/setup.go:168","msg":"Downloading test discovery dependency binary"}
+{"level":"info","time":"2024-08-30T16:25:03.473+0530","caller":"snoopermanager/setup.go:181","msg":"\u001b[91m\u001b[32m✔\u001b[0m Test discovery dependency binary binary downloaded successfully\n\u001b[0m"}
+{"level":"debug","time":"2024-08-30T16:25:03.473+0530","caller":"testdiscoverer/discoverer.go:81","msg":"Test Discovery Command: C:\\Users\\prasad.sardesai\\POC_Project_09082024\\POC_Project_Hyperexcute\\.hyperexecute\\snooper.exe  --targetOs=win11 --featureFilePaths=src/test/resources/features --frameWork=java --specificTags=@Test"}
+{"level":"info","time":"2024-08-30T16:25:04.888+0530","caller":"testdiscoverer/discoverer.go:123","msg":"\u001b[4m\u001b[1m\u001b[97mTest Discovery Result: 13\u001b[0m\u001b[22m\u001b[24m"}
+{"level":"info","time":"2024-08-30T16:25:04.888+0530","caller":"testdiscoverer/discoverer.go:124","msg":"    \u001b[2msrc/test/resources/features/EnrollmentOnlineBanking.feature:19\u001b[22m\n    \u001b[2msrc/test/resources/features/EnrollmentOnlineBanking.feature:20\u001b[22m\n    \u001b[2msrc/test/resources/features/EnrollmentOnlineBanking.feature:21\u001b[22m\n    \u001b[2msrc/test/resources/features/EnrollmentOnlineBanking.feature:39\u001b[22m\n    \u001b[2msrc/test/resources/features/EnrollmentOnlineBanking.feature:40\u001b[22m\n    \u001b[2msrc/test/resources/features/EnrollmentOnlineBanking.feature:41\u001b[22m\n    \u001b[2msrc/test/resources/features/EnrollmentOnlineBanking.feature:59\u001b[22m\n    \u001b[2msrc/test/resources/features/EnrollmentOnlineBanking.feature:60\u001b[22m\n    \u001b[2msrc/test/resources/features/EnrollmentOnlineBanking.feature:61\u001b[22m\n    \u001b[2msrc/test/resources/features/EnrollmentOnlineBanking.feature:81\u001b[22m\n    \u001b[2msrc/test/resources/features/EnrollmentOnlineBanking.feature:82\u001b[22m\n    \u001b[2msrc/test/resources/features/EnrollmentOnlineBanking.feature:83\u001b[22m\n    \u001b[2msrc/test/resources/features/LoginToOnlineBanking.feature:4\u001b[22m\n"}
+{"level":"info","time":"2024-08-30T16:25:05.389+0530","caller":"core/lifecycle.go:401","msg":"\u001b[102m\u001b[1m\u001b[30mYou've consumed 5.49 % of your limit. Free trial mins left - 283.52\u001b[0m\u001b[22m\u001b[0m"}
+{"level":"debug","time":"2024-08-30T16:25:05.389+0530","caller":"core/lifecycle.go:463","msg":"Job ID: 70b46ead-2f01-4024-9517-d8819653c8d8"}
+{"level":"debug","time":"2024-08-30T16:25:05.389+0530","caller":"events/manager.go:95","msg":"Starting event manager"}
+{"level":"debug","time":"2024-08-30T16:25:05.390+0530","caller":"events/manager.go:97","msg":"SSE enabled, getting SSE connection"}
+{"level":"debug","time":"2024-08-30T16:25:05.391+0530","caller":"archivemanager/setup.go:340","msg":"digestMap: map[]"}
+{"level":"debug","time":"2024-08-30T16:25:05.391+0530","caller":"archivemanager/setup.go:346","msg":"Creating archive of target directory: C:\\Users\\prasad.sardesai\\POC_Project_09082024\\POC_Project_Hyperexcute"}
+{"level":"debug","time":"2024-08-30T16:25:06.286+0530","caller":"core/lifecycle.go:598","msg":"Zip file size: 11.15 MB"}
+{"level":"debug","time":"2024-08-30T16:25:06.287+0530","caller":"core/lifecycle.go:608","msg":"Archive location: C:\\Users\\prasad.sardesai\\POC_Project_09082024\\POC_Project_Hyperexcute\\hyperexecute-code-70b46ead-2f01-4024-9517-d8819653c8d8.zip\n"}
+{"level":"debug","time":"2024-08-30T16:25:06.287+0530","caller":"storage/azure.go:59","msg":"Payload size: 11.15 MB, source path C:\\Users\\prasad.sardesai\\POC_Project_09082024\\POC_Project_Hyperexcute\\hyperexecute-code-70b46ead-2f01-4024-9517-d8819653c8d8.zip"}
+{"level":"debug","time":"2024-08-30T16:25:06.287+0530","caller":"utils/azcopy.go:143","msg":"Downloading dependency binary ..................."}
+{"level":"debug","time":"2024-08-30T16:25:06.392+0530","caller":"utils/azcopy.go:100","msg":"Downloading dependency to upload files"}
+{"level":"debug","time":"2024-08-30T16:25:07.136+0530","caller":"storage/azure.go:59","msg":"Payload size: 12.76 kB, source path C:\\Users\\PRASAD~1.SAR\\AppData\\Local\\Temp\\git.diff"}
+{"level":"info","time":"2024-08-30T16:25:11.292+0530","caller":"utils/azcopy.go:118","msg":"✔ Dependency binary downloaded successfully"}
+{"level":"debug","time":"2024-08-30T16:25:11.292+0530","caller":"utils/azcopy.go:190","msg":"returning from fallback"}
+{"level":"info","time":"2024-08-30T16:25:17.013+0530","caller":"storage/azure.go:114","msg":"File upload completed in 9.8767657s"}
+{"level":"info","time":"2024-08-30T16:25:19.521+0530","caller":"storage/azure.go:114","msg":"File upload completed in 13.2340961s"}
+{"level":"debug","time":"2024-08-30T16:25:19.521+0530","caller":"receptionmanager/setup.go:255","msg":"number of entries in runtimes: 0, switching to new yaml format"}
+{"level":"debug","time":"2024-08-30T16:25:19.521+0530","caller":"receptionmanager/setup.go:284","msg":"number of entries in partialreports: 0, switching to new yaml format"}
+{"level":"debug","time":"2024-08-30T16:25:19.533+0530","caller":"receptionmanager/setup.go:172","msg":"Uploading yaml : C:\\Users\\prasad.sardesai\\POC_Project_09082024\\POC_Project_Hyperexcute\\.updatedhyperexecute.yaml"}
+{"level":"debug","time":"2024-08-30T16:25:19.533+0530","caller":"storage/azure.go:59","msg":"Payload size: 4.59 kB, source path C:\\Users\\prasad.sardesai\\POC_Project_09082024\\POC_Project_Hyperexcute\\.updatedhyperexecute.yaml"}
+{"level":"info","time":"2024-08-30T16:25:23.092+0530","caller":"storage/azure.go:114","msg":"File upload completed in 3.5595044s"}
+{"level":"debug","time":"2024-08-30T16:25:23.093+0530","caller":"receptionmanager/setup.go:218","msg":"Uploading cucumber_context : C:\\Users\\prasad.sardesai\\POC_Project_09082024\\POC_Project_Hyperexcute\\cucumber_context.json"}
+{"level":"debug","time":"2024-08-30T16:25:23.093+0530","caller":"storage/azure.go:59","msg":"Payload size: 22.44 kB, source path C:\\Users\\prasad.sardesai\\POC_Project_09082024\\POC_Project_Hyperexcute\\cucumber_context.json"}
+{"level":"info","time":"2024-08-30T16:25:26.598+0530","caller":"storage/azure.go:114","msg":"File upload completed in 3.505514s"}
+{"level":"debug","time":"2024-08-30T16:25:26.611+0530","caller":"storage/azure.go:59","msg":"Payload size: 430 B, source path mask-70b46ead-2f01-4024-9517-d8819653c8d8.yaml"}
+{"level":"info","time":"2024-08-30T16:25:30.091+0530","caller":"storage/azure.go:114","msg":"File upload completed in 3.4810202s"}
+{"level":"debug","time":"2024-08-30T16:25:30.094+0530","caller":"core/lifecycle.go:636","msg":"Successfully deleted code archive: C:\\Users\\prasad.sardesai\\POC_Project_09082024\\POC_Project_Hyperexcute\\hyperexecute-code-70b46ead-2f01-4024-9517-d8819653c8d8.zip\n"}
+{"level":"debug","time":"2024-08-30T16:27:43.285+0530","caller":"events/manager.go:268","msg":"Connection to server failed, Reconnecting!!"}
+{"level":"info","time":"2024-08-30T16:27:44.075+0530","caller":"jobmanager/sse_setup.go:87","msg":"\nJob 70b46ead-2f01-4024-9517-d8819653c8d8 has  FAILED "}
+{"level":"info","time":"2024-08-30T16:27:44.075+0530","caller":"jobmanager/manager.go:141","msg":"Job Link: https://hyperexecute.lambdatest.com/hyperexecute/task?jobId=70b46ead-2f01-4024-9517-d8819653c8d8\n"}
+{"level":"debug","time":"2024-08-30T16:27:44.105+0530","caller":"jobmanager/sse_setup.go:136","msg":"\n\nJob status"}
+{"level":"info","time":"2024-08-30T16:27:44.105+0530","caller":"core/lifecycle.go:716","msg":"taskId:19e75d99-1b10-4974-8274-5ddb38459736 has failed with remark: step 1 - exit status 1\n"}
+{"level":"info","time":"2024-08-30T16:27:44.105+0530","caller":"core/lifecycle.go:716","msg":"taskId:069a1d91-8505-4c66-a35d-7100843f8a81 has failed with remark: step 1 - exit status 1\n"}
+{"level":"info","time":"2024-08-30T16:27:44.106+0530","caller":"core/lifecycle.go:716","msg":"taskId:6794eba2-c74b-4298-b47b-a3fff612fbba has failed with remark: step 1 - exit status 1\n"}
+{"level":"info","time":"2024-08-30T16:27:44.106+0530","caller":"core/lifecycle.go:716","msg":"taskId:dde0c0ae-1258-48f5-9c9e-c557a68bab5f has failed with remark: step 1 - exit status 1\n"}
+{"level":"debug","time":"2024-08-30T16:27:44.106+0530","caller":"core/lifecycle.go:808","msg":"Context canceled"}
+{"level":"info","time":"2024-08-30T16:27:44.106+0530","caller":"core/lifecycle.go:811","msg":"Stopping pipeline gracefully"}
+{"level":"error","time":"2024-08-30T16:27:44.106+0530","caller":"core/lifecycle.go:814","msg":"2024-08-30T16:24:50+05:30    error    Exiting with error: Failed tasks found."}
+{"level":"info","time":"2024-08-30T16:27:44.106+0530","caller":"jobmanager/manager.go:141","msg":"Job Link: https://hyperexecute.lambdatest.com/hyperexecute/task?jobId=70b46ead-2f01-4024-9517-d8819653c8d8\n"}
+{"level":"debug","time":"2024-08-30T16:27:44.106+0530","caller":"core/lifecycle.go:55","msg":"Quit requested from main goroutine...."}
+{"level":"debug","time":"2024-08-30T16:27:44.107+0530","caller":"core/lifecycle.go:56","msg":"Waiting for the goroutines to exit"}
+{"level":"info","time":"2024-08-30T16:28:01.252+0530","caller":"jobmanager/JobSummaryManager.go:54","msg":"\n FAILED \n"}
+{"level":"info","time":"2024-08-30T16:28:01.252+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Test Execution Time:                  0s"}
+{"level":"info","time":"2024-08-30T16:28:01.253+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Job Duration Time:                    29s"}
+{"level":"info","time":"2024-08-30T16:28:01.254+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Total Tasks:                          4"}
+{"level":"info","time":"2024-08-30T16:28:01.254+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Cumulative Time Consumed:             52s"}
+{"level":"info","time":"2024-08-30T16:28:01.254+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Total Stages:                         0"}
+{"level":"info","time":"2024-08-30T16:28:01.255+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Pass discovery stage percentage:      0.00%"}
+{"level":"info","time":"2024-08-30T16:28:01.255+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Failed discovery stage percentage:    0.00%"}
+{"level":"info","time":"2024-08-30T16:28:01.255+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Pass pre stage percentage:            0.00%"}
+{"level":"info","time":"2024-08-30T16:28:01.255+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Failed pre stage percentage:          0.00%"}
+{"level":"info","time":"2024-08-30T16:28:01.255+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Pass test stage percentage:           0.00%"}
+{"level":"info","time":"2024-08-30T16:28:01.255+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Failed test stage percentage:         0.00%"}
+{"level":"info","time":"2024-08-30T16:28:01.255+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Pass post stage percentage:           0.00%"}
+{"level":"info","time":"2024-08-30T16:28:01.255+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Failed post stage percentage:         0.00%"}
+{"level":"info","time":"2024-08-30T16:28:01.256+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Failed Tasks:                         4"}
+{"level":"info","time":"2024-08-30T16:28:01.256+0530","caller":"jobmanager/JobSummaryManager.go:58","msg":""}
+{"level":"debug","time":"2024-08-30T16:28:14.111+0530","caller":"cmd/bin.go:304","msg":"main: all goroutines have finished."}
+{"level":"debug","time":"2024-08-30T16:28:14.111+0530","caller":"cmd/bin.go:343","msg":"Exiting application due to error Failed tasks found."}
+{"level":"debug","time":"2024-08-30T16:29:46.643+0530","caller":"cmd/bin.go:120","msg":"cli os: windows, cli arch: amd64"}
+{"level":"debug","time":"2024-08-30T16:29:46.982+0530","caller":"cmd/bin.go:129","msg":"Upstream version details: {Name:cli Min:0.2.195 Max:0.2.210} "}
+{"level":"debug","time":"2024-08-30T16:29:48.673+0530","caller":"core/lifecycle.go:104","msg":"Setting environment"}
+{"level":"debug","time":"2024-08-30T16:29:48.674+0530","caller":"core/lifecycle.go:107","msg":"Parsing config"}
+{"level":"debug","time":"2024-08-30T16:29:48.674+0530","caller":"yamlconfigmanager/setup.go:574","msg":"Custom location for .hyperexecute.yaml specified. Using: hyperexecute.yaml"}
+{"level":"debug","time":"2024-08-30T16:29:48.674+0530","caller":"yamlconfigmanager/setup.go:90","msg":"using hyperexecute config from : hyperexecute.yaml"}
+{"level":"debug","time":"2024-08-30T16:29:49.019+0530","caller":"yamlconfigmanager/setup.go:2146","msg":"Autodetecting test type in files of path : C:\\Users\\prasad.sardesai\\POC_Project_09082024\\POC_Project_Hyperexcute"}
+{"level":"debug","time":"2024-08-30T16:29:49.020+0530","caller":"yamlconfigmanager/setup.go:426","msg":"Tunnel: false"}
+{"level":"info","time":"2024-08-30T16:29:49.020+0530","caller":"models/HypertestYamlConfig.go:635","msg":"\n\u001b[4m\u001b[1m\u001b[97mExecution Plan\u001b[0m\u001b[22m\u001b[24m"}
+{"level":"info","time":"2024-08-30T16:29:49.020+0530","caller":"models/HypertestYamlConfig.go:439","msg":"Mode:    \u001b[36mautosplit\u001b[0m"}
+{"level":"info","time":"2024-08-30T16:29:49.021+0530","caller":"models/HypertestYamlConfig.go:499","msg":"Runson:    \u001b[36mwin11\u001b[0m"}
+{"level":"info","time":"2024-08-30T16:29:49.021+0530","caller":"models/HypertestYamlConfig.go:507","msg":"Concurrency:    \u001b[36m4\u001b[0m"}
+{"level":"info","time":"2024-08-30T16:29:49.021+0530","caller":"models/HypertestYamlConfig.go:568","msg":"Report:    \u001b[36mdisabled\u001b[0m"}
+{"level":"info","time":"2024-08-30T16:29:49.022+0530","caller":"models/HypertestYamlConfig.go:648","msg":""}
+{"level":"debug","time":"2024-08-30T16:29:49.023+0530","caller":"filevalidator/setup.go:46","msg":"Warning: Checking data.json file in current directory, no dataJsonPath found in .hyperexecute.yaml"}
+{"level":"debug","time":"2024-08-30T16:29:49.023+0530","caller":"filevalidator/setup.go:50","msg":"Warning: data.json file doesn't exist"}
+{"level":"debug","time":"2024-08-30T16:29:49.386+0530","caller":"snoopermanager/setup.go:195","msg":"upstream version: 1.22.0 "}
+{"level":"debug","time":"2024-08-30T16:29:49.684+0530","caller":"testdiscoverer/discoverer.go:81","msg":"Test Discovery Command: C:\\Users\\prasad.sardesai\\POC_Project_09082024\\POC_Project_Hyperexcute\\.hyperexecute\\snooper.exe  --targetOs=win11 --specificTags=@Test --featureFilePaths=src/test/resources/features --frameWork=java"}
+{"level":"info","time":"2024-08-30T16:29:50.072+0530","caller":"testdiscoverer/discoverer.go:123","msg":"\u001b[4m\u001b[1m\u001b[97mTest Discovery Result: 13\u001b[0m\u001b[22m\u001b[24m"}
+{"level":"info","time":"2024-08-30T16:29:50.072+0530","caller":"testdiscoverer/discoverer.go:124","msg":"    \u001b[2msrc/test/resources/features/EnrollmentOnlineBanking.feature:19\u001b[22m\n    \u001b[2msrc/test/resources/features/EnrollmentOnlineBanking.feature:20\u001b[22m\n    \u001b[2msrc/test/resources/features/EnrollmentOnlineBanking.feature:21\u001b[22m\n    \u001b[2msrc/test/resources/features/EnrollmentOnlineBanking.feature:39\u001b[22m\n    \u001b[2msrc/test/resources/features/EnrollmentOnlineBanking.feature:40\u001b[22m\n    \u001b[2msrc/test/resources/features/EnrollmentOnlineBanking.feature:41\u001b[22m\n    \u001b[2msrc/test/resources/features/EnrollmentOnlineBanking.feature:59\u001b[22m\n    \u001b[2msrc/test/resources/features/EnrollmentOnlineBanking.feature:60\u001b[22m\n    \u001b[2msrc/test/resources/features/EnrollmentOnlineBanking.feature:61\u001b[22m\n    \u001b[2msrc/test/resources/features/EnrollmentOnlineBanking.feature:81\u001b[22m\n    \u001b[2msrc/test/resources/features/EnrollmentOnlineBanking.feature:82\u001b[22m\n    \u001b[2msrc/test/resources/features/EnrollmentOnlineBanking.feature:83\u001b[22m\n    \u001b[2msrc/test/resources/features/LoginToOnlineBanking.feature:4\u001b[22m\n"}
+{"level":"info","time":"2024-08-30T16:29:50.553+0530","caller":"core/lifecycle.go:401","msg":"\u001b[102m\u001b[1m\u001b[30mYou've consumed 5.79 % of your limit. Free trial mins left - 282.62\u001b[0m\u001b[22m\u001b[0m"}
+{"level":"debug","time":"2024-08-30T16:29:50.553+0530","caller":"core/lifecycle.go:463","msg":"Job ID: 5e6d72ba-2caa-4582-80f2-f7ec5fea6d52"}
+{"level":"debug","time":"2024-08-30T16:29:50.553+0530","caller":"events/manager.go:95","msg":"Starting event manager"}
+{"level":"debug","time":"2024-08-30T16:29:50.553+0530","caller":"events/manager.go:97","msg":"SSE enabled, getting SSE connection"}
+{"level":"debug","time":"2024-08-30T16:29:50.555+0530","caller":"archivemanager/setup.go:340","msg":"digestMap: map[]"}
+{"level":"debug","time":"2024-08-30T16:29:50.556+0530","caller":"archivemanager/setup.go:346","msg":"Creating archive of target directory: C:\\Users\\prasad.sardesai\\POC_Project_09082024\\POC_Project_Hyperexcute"}
+{"level":"debug","time":"2024-08-30T16:29:51.444+0530","caller":"core/lifecycle.go:598","msg":"Zip file size: 10.02 MB"}
+{"level":"debug","time":"2024-08-30T16:29:51.444+0530","caller":"core/lifecycle.go:608","msg":"Archive location: C:\\Users\\prasad.sardesai\\POC_Project_09082024\\POC_Project_Hyperexcute\\hyperexecute-code-5e6d72ba-2caa-4582-80f2-f7ec5fea6d52.zip\n"}
+{"level":"debug","time":"2024-08-30T16:29:51.446+0530","caller":"storage/azure.go:59","msg":"Payload size: 10.02 MB, source path C:\\Users\\prasad.sardesai\\POC_Project_09082024\\POC_Project_Hyperexcute\\hyperexecute-code-5e6d72ba-2caa-4582-80f2-f7ec5fea6d52.zip"}
+{"level":"debug","time":"2024-08-30T16:29:51.721+0530","caller":"storage/azure.go:59","msg":"Payload size: 793.34 kB, source path C:\\Users\\PRASAD~1.SAR\\AppData\\Local\\Temp\\git.diff"}
+{"level":"info","time":"2024-08-30T16:29:57.063+0530","caller":"storage/azure.go:114","msg":"File upload completed in 5.6180517s"}
+{"level":"debug","time":"2024-08-30T16:29:57.064+0530","caller":"receptionmanager/setup.go:265","msg":"only one runtime entry detected, mapping it to older yaml format"}
+{"level":"debug","time":"2024-08-30T16:29:57.064+0530","caller":"receptionmanager/setup.go:284","msg":"number of entries in partialreports: 1, switching to new yaml format"}
+{"level":"debug","time":"2024-08-30T16:29:57.065+0530","caller":"receptionmanager/setup.go:172","msg":"Uploading yaml : C:\\Users\\prasad.sardesai\\POC_Project_09082024\\POC_Project_Hyperexcute\\.updatedhyperexecute.yaml"}
+{"level":"debug","time":"2024-08-30T16:29:57.066+0530","caller":"storage/azure.go:59","msg":"Payload size: 4.68 kB, source path C:\\Users\\prasad.sardesai\\POC_Project_09082024\\POC_Project_Hyperexcute\\.updatedhyperexecute.yaml"}
+{"level":"info","time":"2024-08-30T16:29:58.328+0530","caller":"storage/azure.go:114","msg":"File upload completed in 6.6068517s"}
+{"level":"info","time":"2024-08-30T16:30:00.614+0530","caller":"storage/azure.go:114","msg":"File upload completed in 3.5488983s"}
+{"level":"debug","time":"2024-08-30T16:30:00.614+0530","caller":"receptionmanager/setup.go:218","msg":"Uploading cucumber_context : C:\\Users\\prasad.sardesai\\POC_Project_09082024\\POC_Project_Hyperexcute\\cucumber_context.json"}
+{"level":"debug","time":"2024-08-30T16:30:00.615+0530","caller":"storage/azure.go:59","msg":"Payload size: 22.44 kB, source path C:\\Users\\prasad.sardesai\\POC_Project_09082024\\POC_Project_Hyperexcute\\cucumber_context.json"}
+{"level":"info","time":"2024-08-30T16:30:04.157+0530","caller":"storage/azure.go:114","msg":"File upload completed in 3.5423347s"}
+{"level":"debug","time":"2024-08-30T16:30:04.169+0530","caller":"storage/azure.go:59","msg":"Payload size: 476 B, source path mask-5e6d72ba-2caa-4582-80f2-f7ec5fea6d52.yaml"}
+{"level":"info","time":"2024-08-30T16:30:07.729+0530","caller":"storage/azure.go:114","msg":"File upload completed in 3.5603586s"}
+{"level":"debug","time":"2024-08-30T16:30:07.732+0530","caller":"core/lifecycle.go:636","msg":"Successfully deleted code archive: C:\\Users\\prasad.sardesai\\POC_Project_09082024\\POC_Project_Hyperexcute\\hyperexecute-code-5e6d72ba-2caa-4582-80f2-f7ec5fea6d52.zip\n"}
+{"level":"debug","time":"2024-08-30T16:31:45.345+0530","caller":"cmd/bin.go:312","msg":"main: received C-c - attempting graceful shutdown ...."}
+{"level":"debug","time":"2024-08-30T16:31:45.345+0530","caller":"cmd/bin.go:313","msg":"Sending abort job signal to sentinel"}
+{"level":"debug","time":"2024-08-30T16:31:45.345+0530","caller":"cmd/bin.go:319","msg":"Sending request to abort job"}
+{"level":"debug","time":"2024-08-30T16:31:47.232+0530","caller":"cmd/bin.go:328","msg":"main: telling goroutines to stop"}
+{"level":"debug","time":"2024-08-30T16:31:47.233+0530","caller":"core/lifecycle.go:808","msg":"Context canceled"}
+{"level":"info","time":"2024-08-30T16:31:47.233+0530","caller":"core/lifecycle.go:811","msg":"Stopping pipeline gracefully"}
+{"level":"info","time":"2024-08-30T16:31:47.234+0530","caller":"jobmanager/manager.go:141","msg":"Job Link: https://hyperexecute.lambdatest.com/hyperexecute/task?jobId=5e6d72ba-2caa-4582-80f2-f7ec5fea6d52\n"}
+{"level":"debug","time":"2024-08-30T16:31:47.235+0530","caller":"core/lifecycle.go:55","msg":"Quit requested from main goroutine...."}
+{"level":"debug","time":"2024-08-30T16:31:47.235+0530","caller":"core/lifecycle.go:56","msg":"Waiting for the goroutines to exit"}
+{"level":"debug","time":"2024-08-30T16:37:33.102+0530","caller":"cmd/bin.go:120","msg":"cli os: windows, cli arch: amd64"}
+{"level":"debug","time":"2024-08-30T16:37:33.457+0530","caller":"cmd/bin.go:129","msg":"Upstream version details: {Name:cli Min:0.2.195 Max:0.2.210} "}
+{"level":"debug","time":"2024-08-30T16:37:35.219+0530","caller":"core/lifecycle.go:104","msg":"Setting environment"}
+{"level":"debug","time":"2024-08-30T16:37:35.220+0530","caller":"core/lifecycle.go:107","msg":"Parsing config"}
+{"level":"debug","time":"2024-08-30T16:37:35.220+0530","caller":"yamlconfigmanager/setup.go:574","msg":"Custom location for .hyperexecute.yaml specified. Using: hyperexecute.yaml"}
+{"level":"debug","time":"2024-08-30T16:37:35.220+0530","caller":"yamlconfigmanager/setup.go:90","msg":"using hyperexecute config from : hyperexecute.yaml"}
+{"level":"debug","time":"2024-08-30T16:37:35.561+0530","caller":"yamlconfigmanager/setup.go:2146","msg":"Autodetecting test type in files of path : C:\\Users\\prasad.sardesai\\POC_Project_09082024\\POC_Project_Hyperexcute"}
+{"level":"debug","time":"2024-08-30T16:37:35.562+0530","caller":"yamlconfigmanager/setup.go:426","msg":"Tunnel: false"}
+{"level":"info","time":"2024-08-30T16:37:35.562+0530","caller":"models/HypertestYamlConfig.go:635","msg":"\n\u001b[4m\u001b[1m\u001b[97mExecution Plan\u001b[0m\u001b[22m\u001b[24m"}
+{"level":"info","time":"2024-08-30T16:37:35.563+0530","caller":"models/HypertestYamlConfig.go:439","msg":"Mode:    \u001b[36mautosplit\u001b[0m"}
+{"level":"info","time":"2024-08-30T16:37:35.566+0530","caller":"models/HypertestYamlConfig.go:499","msg":"Runson:    \u001b[36mwin11\u001b[0m"}
+{"level":"info","time":"2024-08-30T16:37:35.570+0530","caller":"models/HypertestYamlConfig.go:507","msg":"Concurrency:    \u001b[36m4\u001b[0m"}
+{"level":"info","time":"2024-08-30T16:37:35.570+0530","caller":"models/HypertestYamlConfig.go:568","msg":"Report:    \u001b[36mdisabled\u001b[0m"}
+{"level":"info","time":"2024-08-30T16:37:35.571+0530","caller":"models/HypertestYamlConfig.go:648","msg":""}
+{"level":"debug","time":"2024-08-30T16:37:35.571+0530","caller":"filevalidator/setup.go:46","msg":"Warning: Checking data.json file in current directory, no dataJsonPath found in .hyperexecute.yaml"}
+{"level":"debug","time":"2024-08-30T16:37:35.572+0530","caller":"filevalidator/setup.go:50","msg":"Warning: data.json file doesn't exist"}
+{"level":"debug","time":"2024-08-30T16:37:35.907+0530","caller":"snoopermanager/setup.go:195","msg":"upstream version: 1.22.0 "}
+{"level":"debug","time":"2024-08-30T16:37:36.178+0530","caller":"testdiscoverer/discoverer.go:81","msg":"Test Discovery Command: C:\\Users\\prasad.sardesai\\POC_Project_09082024\\POC_Project_Hyperexcute\\.hyperexecute\\snooper.exe  --targetOs=win11 --featureFilePaths=src/test/resources/features --frameWork=java --specificTags=@Test"}
+{"level":"info","time":"2024-08-30T16:37:36.521+0530","caller":"testdiscoverer/discoverer.go:123","msg":"\u001b[4m\u001b[1m\u001b[97mTest Discovery Result: 13\u001b[0m\u001b[22m\u001b[24m"}
+{"level":"info","time":"2024-08-30T16:37:36.521+0530","caller":"testdiscoverer/discoverer.go:124","msg":"    \u001b[2msrc/test/resources/features/EnrollmentOnlineBanking.feature:19\u001b[22m\n    \u001b[2msrc/test/resources/features/EnrollmentOnlineBanking.feature:20\u001b[22m\n    \u001b[2msrc/test/resources/features/EnrollmentOnlineBanking.feature:21\u001b[22m\n    \u001b[2msrc/test/resources/features/EnrollmentOnlineBanking.feature:39\u001b[22m\n    \u001b[2msrc/test/resources/features/EnrollmentOnlineBanking.feature:40\u001b[22m\n    \u001b[2msrc/test/resources/features/EnrollmentOnlineBanking.feature:41\u001b[22m\n    \u001b[2msrc/test/resources/features/EnrollmentOnlineBanking.feature:59\u001b[22m\n    \u001b[2msrc/test/resources/features/EnrollmentOnlineBanking.feature:60\u001b[22m\n    \u001b[2msrc/test/resources/features/EnrollmentOnlineBanking.feature:61\u001b[22m\n    \u001b[2msrc/test/resources/features/EnrollmentOnlineBanking.feature:81\u001b[22m\n    \u001b[2msrc/test/resources/features/EnrollmentOnlineBanking.feature:82\u001b[22m\n    \u001b[2msrc/test/resources/features/EnrollmentOnlineBanking.feature:83\u001b[22m\n    \u001b[2msrc/test/resources/features/LoginToOnlineBanking.feature:4\u001b[22m\n"}
+{"level":"info","time":"2024-08-30T16:37:37.090+0530","caller":"core/lifecycle.go:401","msg":"\u001b[102m\u001b[1m\u001b[30mYou've consumed 6.48 % of your limit. Free trial mins left - 280.57\u001b[0m\u001b[22m\u001b[0m"}
+{"level":"debug","time":"2024-08-30T16:37:37.090+0530","caller":"core/lifecycle.go:463","msg":"Job ID: e0f016af-36b6-43d1-ab0b-78b7929b4558"}
+{"level":"debug","time":"2024-08-30T16:37:37.090+0530","caller":"events/manager.go:95","msg":"Starting event manager"}
+{"level":"debug","time":"2024-08-30T16:37:37.090+0530","caller":"events/manager.go:97","msg":"SSE enabled, getting SSE connection"}
+{"level":"debug","time":"2024-08-30T16:37:37.096+0530","caller":"archivemanager/setup.go:340","msg":"digestMap: map[]"}
+{"level":"debug","time":"2024-08-30T16:37:37.096+0530","caller":"archivemanager/setup.go:346","msg":"Creating archive of target directory: C:\\Users\\prasad.sardesai\\POC_Project_09082024\\POC_Project_Hyperexcute"}
+{"level":"debug","time":"2024-08-30T16:37:37.927+0530","caller":"core/lifecycle.go:598","msg":"Zip file size: 10.01 MB"}
+{"level":"debug","time":"2024-08-30T16:37:37.928+0530","caller":"core/lifecycle.go:608","msg":"Archive location: C:\\Users\\prasad.sardesai\\POC_Project_09082024\\POC_Project_Hyperexcute\\hyperexecute-code-e0f016af-36b6-43d1-ab0b-78b7929b4558.zip\n"}
+{"level":"debug","time":"2024-08-30T16:37:37.929+0530","caller":"storage/azure.go:59","msg":"Payload size: 10.01 MB, source path C:\\Users\\prasad.sardesai\\POC_Project_09082024\\POC_Project_Hyperexcute\\hyperexecute-code-e0f016af-36b6-43d1-ab0b-78b7929b4558.zip"}
+{"level":"debug","time":"2024-08-30T16:37:38.177+0530","caller":"storage/azure.go:59","msg":"Payload size: 802.01 kB, source path C:\\Users\\PRASAD~1.SAR\\AppData\\Local\\Temp\\git.diff"}
+{"level":"info","time":"2024-08-30T16:37:43.667+0530","caller":"storage/azure.go:114","msg":"File upload completed in 5.7385589s"}
+{"level":"debug","time":"2024-08-30T16:37:43.667+0530","caller":"receptionmanager/setup.go:265","msg":"only one runtime entry detected, mapping it to older yaml format"}
+{"level":"debug","time":"2024-08-30T16:37:43.667+0530","caller":"receptionmanager/setup.go:284","msg":"number of entries in partialreports: 1, switching to new yaml format"}
+{"level":"debug","time":"2024-08-30T16:37:43.669+0530","caller":"receptionmanager/setup.go:172","msg":"Uploading yaml : C:\\Users\\prasad.sardesai\\POC_Project_09082024\\POC_Project_Hyperexcute\\.updatedhyperexecute.yaml"}
+{"level":"debug","time":"2024-08-30T16:37:43.669+0530","caller":"storage/azure.go:59","msg":"Payload size: 4.70 kB, source path C:\\Users\\prasad.sardesai\\POC_Project_09082024\\POC_Project_Hyperexcute\\.updatedhyperexecute.yaml"}
+{"level":"info","time":"2024-08-30T16:37:44.842+0530","caller":"storage/azure.go:114","msg":"File upload completed in 6.6655641s"}
+{"level":"info","time":"2024-08-30T16:37:47.199+0530","caller":"storage/azure.go:114","msg":"File upload completed in 3.5300153s"}
+{"level":"debug","time":"2024-08-30T16:37:47.200+0530","caller":"receptionmanager/setup.go:218","msg":"Uploading cucumber_context : C:\\Users\\prasad.sardesai\\POC_Project_09082024\\POC_Project_Hyperexcute\\cucumber_context.json"}
+{"level":"debug","time":"2024-08-30T16:37:47.200+0530","caller":"storage/azure.go:59","msg":"Payload size: 22.44 kB, source path C:\\Users\\prasad.sardesai\\POC_Project_09082024\\POC_Project_Hyperexcute\\cucumber_context.json"}
+{"level":"info","time":"2024-08-30T16:37:50.678+0530","caller":"storage/azure.go:114","msg":"File upload completed in 3.47832s"}
+{"level":"debug","time":"2024-08-30T16:37:50.690+0530","caller":"storage/azure.go:59","msg":"Payload size: 488 B, source path mask-e0f016af-36b6-43d1-ab0b-78b7929b4558.yaml"}
+{"level":"info","time":"2024-08-30T16:37:54.180+0530","caller":"storage/azure.go:114","msg":"File upload completed in 3.4896132s"}
+{"level":"debug","time":"2024-08-30T16:37:54.183+0530","caller":"core/lifecycle.go:636","msg":"Successfully deleted code archive: C:\\Users\\prasad.sardesai\\POC_Project_09082024\\POC_Project_Hyperexcute\\hyperexecute-code-e0f016af-36b6-43d1-ab0b-78b7929b4558.zip\n"}
+{"level":"debug","time":"2024-08-30T18:48:54.732+0530","caller":"events/manager.go:268","msg":"Connection to server failed, Reconnecting!!"}
+{"level":"debug","time":"2024-08-30T18:48:56.584+0530","caller":"events/manager.go:277","msg":"connection to hyperexecute server established successfully."}
+{"level":"info","time":"2024-08-30T18:49:00.182+0530","caller":"jobmanager/sse_setup.go:87","msg":"\nJob e0f016af-36b6-43d1-ab0b-78b7929b4558 has  FAILED "}
+{"level":"info","time":"2024-08-30T18:49:00.182+0530","caller":"jobmanager/manager.go:141","msg":"Job Link: https://hyperexecute.lambdatest.com/hyperexecute/task?jobId=e0f016af-36b6-43d1-ab0b-78b7929b4558\n"}
+{"level":"debug","time":"2024-08-30T18:49:00.208+0530","caller":"jobmanager/sse_setup.go:136","msg":"\n\nJob status"}
+{"level":"info","time":"2024-08-30T18:49:00.208+0530","caller":"core/lifecycle.go:716","msg":"taskId:fef68e22-9a80-44de-b9c4-7cded2506e35 has failed with remark: error in running test suites - step 1 - exit status 1\n"}
+{"level":"info","time":"2024-08-30T18:49:00.210+0530","caller":"core/lifecycle.go:716","msg":"taskId:e9281581-d880-4720-8be9-3ac2b989508d has failed with remark: error in running test suites - step 1 - exit status 1\n"}
+{"level":"info","time":"2024-08-30T18:49:00.211+0530","caller":"core/lifecycle.go:716","msg":"taskId:03c27037-be65-428a-99fb-7c701f48d8ce has failed with remark: error in running test suites - step 1 - exit status 1\n"}
+{"level":"info","time":"2024-08-30T18:49:00.213+0530","caller":"core/lifecycle.go:716","msg":"taskId:95153bde-b52d-4942-8f4f-6dd06e3ed537 has failed with remark: error in running test suites - step 1 - exit status 1\n"}
+{"level":"debug","time":"2024-08-30T18:49:00.216+0530","caller":"core/lifecycle.go:808","msg":"Context canceled"}
+{"level":"info","time":"2024-08-30T18:49:00.216+0530","caller":"core/lifecycle.go:811","msg":"Stopping pipeline gracefully"}
+{"level":"error","time":"2024-08-30T18:49:00.218+0530","caller":"core/lifecycle.go:814","msg":"2024-08-30T16:37:32+05:30    error    Exiting with error: Failed tasks found."}
+{"level":"info","time":"2024-08-30T18:49:00.219+0530","caller":"jobmanager/manager.go:141","msg":"Job Link: https://hyperexecute.lambdatest.com/hyperexecute/task?jobId=e0f016af-36b6-43d1-ab0b-78b7929b4558\n"}
+{"level":"debug","time":"2024-08-30T18:49:00.223+0530","caller":"core/lifecycle.go:55","msg":"Quit requested from main goroutine...."}
+{"level":"debug","time":"2024-08-30T18:49:00.223+0530","caller":"core/lifecycle.go:56","msg":"Waiting for the goroutines to exit"}
+{"level":"info","time":"2024-08-30T18:49:17.568+0530","caller":"jobmanager/JobSummaryManager.go:54","msg":"\n FAILED \n"}
+{"level":"info","time":"2024-08-30T18:49:17.568+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Test Execution Time:                  8m11s"}
+{"level":"info","time":"2024-08-30T18:49:17.575+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Job Duration Time:                    8m56s"}
+{"level":"info","time":"2024-08-30T18:49:17.576+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Total Tasks:                          4"}
+{"level":"info","time":"2024-08-30T18:49:17.577+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Cumulative Time Consumed:             16m52s"}
+{"level":"info","time":"2024-08-30T18:49:17.581+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Total Stages:                         0"}
+{"level":"info","time":"2024-08-30T18:49:17.582+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Pass discovery stage percentage:      0.00%"}
+{"level":"info","time":"2024-08-30T18:49:17.583+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Failed discovery stage percentage:    0.00%"}
+{"level":"info","time":"2024-08-30T18:49:17.583+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Pass pre stage percentage:            0.00%"}
+{"level":"info","time":"2024-08-30T18:49:17.585+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Failed pre stage percentage:          0.00%"}
+{"level":"info","time":"2024-08-30T18:49:17.586+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Pass test stage percentage:           0.00%"}
+{"level":"info","time":"2024-08-30T18:49:17.586+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Failed test stage percentage:         0.00%"}
+{"level":"info","time":"2024-08-30T18:49:17.588+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Pass post stage percentage:           0.00%"}
+{"level":"info","time":"2024-08-30T18:49:17.589+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Failed post stage percentage:         0.00%"}
+{"level":"info","time":"2024-08-30T18:49:17.589+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Failed Tasks:                         4"}
+{"level":"info","time":"2024-08-30T18:49:17.591+0530","caller":"jobmanager/JobSummaryManager.go:58","msg":""}
+{"level":"debug","time":"2024-08-30T18:49:30.226+0530","caller":"cmd/bin.go:304","msg":"main: all goroutines have finished."}
+{"level":"debug","time":"2024-08-30T18:49:30.226+0530","caller":"cmd/bin.go:343","msg":"Exiting application due to error Failed tasks found."}
